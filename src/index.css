@@ -1,0 +1,93 @@
+.content{
+  background-color: red;
+}
+
+.tatib-icon{
+  background-color: white;
+  color: #066163;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 100px 200px;
+  grid-template-rows: repeat(2, 35px);
+  cursor: pointer;
+}
+
+.tatib-icon img{
+  grid-row: span 2;
+  width: 70px;
+  margin: auto;
+}
+
+.tatib-icon h2:last-child{
+  margin-top: -10px;
+}
+
+.wellcome{
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  background-color: #066163;
+  text-align: center;
+  display: flex;  
+}
+.wellcome h1{
+  margin: auto;
+  font-size: 2.7em;
+}
+
+.btn{
+  cursor: pointer;
+}
+
+.btn-navigate{
+  background-color: transparent;
+  padding: 5px;
+  color: #066163;
+  border: none;
+  cursor: pointer;
+}
+
+.login{
+  display: grid;
+  grid-template-columns: 10px 250px;
+  border: solid;
+  gap: 30px;
+  padding: 30px;
+  width: 300px;
+  margin: 100px auto;
+  background-color: white;
+  position: relative;
+}
+
+.login h1{
+  grid-column: span 2;
+  color: black;
+  margin: auto;
+}
+
+.login img{
+  margin: auto;
+}
+
+.login input{
+  padding: 15px 5px;
+  width: 100%;
+  background-color: #eee;
+  border-radius: 3px;
+  border: none;
+}
+
+.login button{
+  width: 100%;
+  margin: auto;
+  grid-column: span 2;
+  padding: 7px 10px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+

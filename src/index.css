@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content{
+  background-color: red;
+}
+
+.tatib-icon{
+  background-color: white;
+  color: #066163;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 100px 200px;
+  grid-template-rows: repeat(2, 35px);
+  cursor: pointer;
+}
+
+.tatib-icon img{
+  grid-row: span 2;
+  width: 70px;
+  margin: auto;
+}
+
+.tatib-icon h2:last-child{
+  margin-top: -10px;
+}
+
+.wellcome{
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  background-color: #066163;
+  text-align: center;
+  display: flex;  
+}
+.wellcome h1{
+  margin: auto;
+  font-size: 2.7em;
+}
+
+.btn{
+  cursor: pointer;
+  margin-bottom: 10px;
+  border: solid;
+  border-color: #066163;
+  color: #066163;
+}
+
+.btn-navigate{
+  background-color: transparent;
+  padding: 5px;
+  color: #066163;
+  border: none;
+  cursor: pointer;
+}
+
+.login{
+  display: grid;
+  grid-template-columns: 10px 250px;
+  border: solid;
+  gap: 20px;
+  padding: 30px;
+  width: 380px;
+  margin: 30px auto;
+  background-color: white;
+  position: relative;
+  color: #066163;
+}
+
+.login h1{
+  font-size: 1.5em;
+  grid-column: span 2;
+  color: #066163;
+  margin-left: 30px;
+  /* font-weight: bold; */
+}
+
+.login img{
+  margin: auto;
+}
+
+.login input{
+  padding: 15px 5px;
+  width: 100%;
+  background-color: #eee;
+  border-radius: 3px;
+  border: none;
+}
+
+.login button{
+  width: 100%;
+  margin-left: 18px;
+  grid-column: span 2;
+  padding: 7px 10px;
+  border: none;
+  /* font-weight: bold; */
+  cursor: pointer;
+}
+
